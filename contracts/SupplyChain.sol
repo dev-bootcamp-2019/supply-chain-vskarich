@@ -102,7 +102,9 @@ contract SupplyChain {
     return true;
   }
 
-  /* Add a keyword so the function can be paid. This function should transfer money
+  /* 
+
+  Add a keyword so the function can be paid. This function should transfer money
     to the seller, set the buyer as the person who called this transaction, and set the state
     to Sold. Be careful, this function should use 3 modifiers to check if the item is for sale,
     if the buyer paid enough, and check the value after the function is called to make sure the buyer is
